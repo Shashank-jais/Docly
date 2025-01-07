@@ -14,6 +14,55 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Docly-DoclyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Docly-DoclyTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E5F6F6B39A3B4D84BFEBDD0F /* paracetamol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCFFE86A1FC449438BE4B5BA /* paracetamol.jpg */; };
+		966291D644994F28BA16CA99 /* ambulance.svg in Resources */ = {isa = PBXBuildFile; fileRef = 828B6408B9B9456BA4FDAB47 /* ambulance.svg */; };
+		3EC5C3591F7D41088429F04E /* doctor.svg in Resources */ = {isa = PBXBuildFile; fileRef = BEBD3B44928341C0848A24B9 /* doctor.svg */; };
+		189F1F30F8014070BFCAE1BB /* layout.svg in Resources */ = {isa = PBXBuildFile; fileRef = 38D9A2AC405E4A688595CB77 /* layout.svg */; };
+		B74B7B8BE8B7444892BA5104 /* medicine.svg in Resources */ = {isa = PBXBuildFile; fileRef = B9E00508D2D6465493A90C8E /* medicine.svg */; };
+		5329AC2B37FC47078D59B381 /* ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 2654972752C04AC9BF405797 /* ambulance.png */; };
+		5EA0876549E34177B8C005A2 /* layout.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A81B7D4164DE581B3A419 /* layout.png */; };
+		081785712631440C8CF9D881 /* medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 797E30DAB2C44D07A5037CBA /* medicine.png */; };
+		B5F85FCDD82945D28778B3F2 /* D1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A747751D828420891728A70 /* D1.jpg */; };
+		CE279661D02543659778EB11 /* D10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCBA9399160A413F8177D7DF /* D10.jpg */; };
+		0EDF56D2FB6748EBA81FBDD5 /* D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68503269882A4E99A44C7760 /* D2.jpg */; };
+		6D75B28D549944CC8A31F4A4 /* D3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E04A22B032344EFA9805CE1B /* D3.jpg */; };
+		14114891B2C3464EA4AE4E4B /* D4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF74E63CA9F046D1BEA0E281 /* D4.jpg */; };
+		A8D205D84C544C438A3C87BC /* D5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E41A92321964074859A3E34 /* D5.jpg */; };
+		218D04613F924A2C851DEC4D /* D6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A07BD64133C493FA44A26C2 /* D6.jpg */; };
+		CD82169E7BC44A119CB416A8 /* D7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51B6AADF3C0F41F087F8AD67 /* D7.jpg */; };
+		FAD426D3542E4AF385DA8CF0 /* D8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58628964DB7F4549B1611912 /* D8.jpg */; };
+		4D38871944DD4FBEAD58FAA3 /* D9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3244AD5C4D41BBB75382C9 /* D9.jpg */; };
+		2D401E9EE6BF45C294E478BD /* d1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086DEDD92E7642DD91413D9F /* d1.jpg */; };
+		7612102F2A4E492DB05EAC36 /* d10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1764BF0824DC093BFEDAA /* d10.jpg */; };
+		175C4CF4D2C54E8C888A6181 /* d2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E425EE1CC4576B411A76D /* d2.jpg */; };
+		E432E5B477D04389B809717E /* d3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE65273CDFE4F308CFC26DE /* d3.jpg */; };
+		0E80FF3F6FF141BABEA2AA77 /* d4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91E1277E2C934E97AA052E14 /* d4.jpg */; };
+		0EEBA51BA781400DA30A73B0 /* d5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E17602D5DD84877B99D5F6A /* d5.jpg */; };
+		C08837004DD345D49790712F /* d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DC60A7DB9D46EAB625405B /* d6.jpg */; };
+		635265E184F94CF8A5F9F4EC /* d7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D877D4F95F466D90B6B271 /* d7.jpg */; };
+		8244B30BAC1B4D0B81BEB23B /* d8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B49CE87C5C84F1FAD7572E4 /* d8.jpg */; };
+		439CF3E54D6441A28A205857 /* d9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D23098DA1A4B454B889078CC /* d9.jpg */; };
+		4B184F120EED4DE797EF649F /* amoxicillin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A63FC59FD31F4778A7FD4541 /* amoxicillin.jpg */; };
+		AFBF26AE7AEE4DF29E72526E /* aspirin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92ED328030304439A314FFF0 /* aspirin.jpg */; };
+		E93025BBEDA044D88866873B /* azithromycin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E307872A6FDF4426AEAF298B /* azithromycin.jpg */; };
+		79189A2EFD284CA088EBEE93 /* cetirizine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A305395AC77B4977B826D6ED /* cetirizine.jpg */; };
+		B87AF5C7C86248C799137C16 /* coughsyrup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225382EA08D844E8A798F135 /* coughsyrup.jpg */; };
+		395BC52FB65B4A29A52C7652 /* ibuprofen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 393C4D77E7D1426BBBE4A2A0 /* ibuprofen.jpg */; };
+		41C58E9AEF744411931371F4 /* loratadine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72719DAFACEC4A85896B157E /* loratadine.jpg */; };
+		1F1F8D13A1A04891890B7250 /* metformin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA095E0244B14C0684C8D61C /* metformin.jpg */; };
+		28CF89597AB1423E8862B456 /* omeprazole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2ACD2DFF71F4F46ADBDF900 /* omeprazole.jpg */; };
+		08341F963AD74447AB070F0A /* salbutamol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A850ADA5FE34A308D6C173C /* salbutamol.jpg */; };
+		60B78B160815479A8D8D389A /* vitaminsyrup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3F062C1A13B4FA6B4C63FFE /* vitaminsyrup.jpg */; };
+		F17348AAC4D94B26B857B706 /* app_icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE3B0B45E93A4F35B2853630 /* app_icons.ttf */; };
+		CB4E87F1E24B46369E43097F /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A458A69D94391AC515D32 /* Poppins-Black.ttf */; };
+		7611EB7AE64F412090763E9C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C2DF18DD5494E29B780E943 /* Poppins-Bold.ttf */; };
+		1CEA53F7377344FE9BEC8BF0 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73DF777633D54B4292171693 /* Poppins-ExtraBold.ttf */; };
+		BCD21B08177B4FDB834CAE13 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C671F0ACCB8F49ACB802D1B2 /* Poppins-ExtraLight.ttf */; };
+		E664FA61765442AA884DE25D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 544723A42B44440CB3700A8B /* Poppins-Light.ttf */; };
+		E123DE40FA284AB7A19F8228 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D64909E7BFE49B494528447 /* Poppins-Medium.ttf */; };
+		C5C68A23B7024E28927ADB34 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */; };
+		CE5A1E0BD9A546EBB773392D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */; };
+		0864C9CD77E04B1680C98245 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +94,55 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Docly/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Docly-DoclyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Docly-DoclyTests.release.xcconfig"; path = "Target Support Files/Pods-Docly-DoclyTests/Pods-Docly-DoclyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BCFFE86A1FC449438BE4B5BA /* paracetamol.jpg */ = {isa = PBXFileReference; name = "paracetamol.jpg"; path = "../src/assets/images/medicine/paracetamol.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		828B6408B9B9456BA4FDAB47 /* ambulance.svg */ = {isa = PBXFileReference; name = "ambulance.svg"; path = "../src/assets/svg/ambulance.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEBD3B44928341C0848A24B9 /* doctor.svg */ = {isa = PBXFileReference; name = "doctor.svg"; path = "../src/assets/svg/doctor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38D9A2AC405E4A688595CB77 /* layout.svg */ = {isa = PBXFileReference; name = "layout.svg"; path = "../src/assets/svg/layout.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9E00508D2D6465493A90C8E /* medicine.svg */ = {isa = PBXFileReference; name = "medicine.svg"; path = "../src/assets/svg/medicine.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2654972752C04AC9BF405797 /* ambulance.png */ = {isa = PBXFileReference; name = "ambulance.png"; path = "../src/assets/svg_images/ambulance.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E7A81B7D4164DE581B3A419 /* layout.png */ = {isa = PBXFileReference; name = "layout.png"; path = "../src/assets/svg_images/layout.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		797E30DAB2C44D07A5037CBA /* medicine.png */ = {isa = PBXFileReference; name = "medicine.png"; path = "../src/assets/svg_images/medicine.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A747751D828420891728A70 /* D1.jpg */ = {isa = PBXFileReference; name = "D1.jpg"; path = "../src/assets/images/doctor/doctor_200/D1.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCBA9399160A413F8177D7DF /* D10.jpg */ = {isa = PBXFileReference; name = "D10.jpg"; path = "../src/assets/images/doctor/doctor_200/D10.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68503269882A4E99A44C7760 /* D2.jpg */ = {isa = PBXFileReference; name = "D2.jpg"; path = "../src/assets/images/doctor/doctor_200/D2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E04A22B032344EFA9805CE1B /* D3.jpg */ = {isa = PBXFileReference; name = "D3.jpg"; path = "../src/assets/images/doctor/doctor_200/D3.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF74E63CA9F046D1BEA0E281 /* D4.jpg */ = {isa = PBXFileReference; name = "D4.jpg"; path = "../src/assets/images/doctor/doctor_200/D4.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E41A92321964074859A3E34 /* D5.jpg */ = {isa = PBXFileReference; name = "D5.jpg"; path = "../src/assets/images/doctor/doctor_200/D5.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A07BD64133C493FA44A26C2 /* D6.jpg */ = {isa = PBXFileReference; name = "D6.jpg"; path = "../src/assets/images/doctor/doctor_200/D6.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51B6AADF3C0F41F087F8AD67 /* D7.jpg */ = {isa = PBXFileReference; name = "D7.jpg"; path = "../src/assets/images/doctor/doctor_200/D7.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58628964DB7F4549B1611912 /* D8.jpg */ = {isa = PBXFileReference; name = "D8.jpg"; path = "../src/assets/images/doctor/doctor_200/D8.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C3244AD5C4D41BBB75382C9 /* D9.jpg */ = {isa = PBXFileReference; name = "D9.jpg"; path = "../src/assets/images/doctor/doctor_200/D9.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		086DEDD92E7642DD91413D9F /* d1.jpg */ = {isa = PBXFileReference; name = "d1.jpg"; path = "../src/assets/images/doctor/doctor/d1.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18B1764BF0824DC093BFEDAA /* d10.jpg */ = {isa = PBXFileReference; name = "d10.jpg"; path = "../src/assets/images/doctor/doctor/d10.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D0E425EE1CC4576B411A76D /* d2.jpg */ = {isa = PBXFileReference; name = "d2.jpg"; path = "../src/assets/images/doctor/doctor/d2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCE65273CDFE4F308CFC26DE /* d3.jpg */ = {isa = PBXFileReference; name = "d3.jpg"; path = "../src/assets/images/doctor/doctor/d3.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91E1277E2C934E97AA052E14 /* d4.jpg */ = {isa = PBXFileReference; name = "d4.jpg"; path = "../src/assets/images/doctor/doctor/d4.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7E17602D5DD84877B99D5F6A /* d5.jpg */ = {isa = PBXFileReference; name = "d5.jpg"; path = "../src/assets/images/doctor/doctor/d5.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20DC60A7DB9D46EAB625405B /* d6.jpg */ = {isa = PBXFileReference; name = "d6.jpg"; path = "../src/assets/images/doctor/doctor/d6.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81D877D4F95F466D90B6B271 /* d7.jpg */ = {isa = PBXFileReference; name = "d7.jpg"; path = "../src/assets/images/doctor/doctor/d7.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B49CE87C5C84F1FAD7572E4 /* d8.jpg */ = {isa = PBXFileReference; name = "d8.jpg"; path = "../src/assets/images/doctor/doctor/d8.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D23098DA1A4B454B889078CC /* d9.jpg */ = {isa = PBXFileReference; name = "d9.jpg"; path = "../src/assets/images/doctor/doctor/d9.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A63FC59FD31F4778A7FD4541 /* amoxicillin.jpg */ = {isa = PBXFileReference; name = "amoxicillin.jpg"; path = "../src/assets/images/medicine/amoxicillin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92ED328030304439A314FFF0 /* aspirin.jpg */ = {isa = PBXFileReference; name = "aspirin.jpg"; path = "../src/assets/images/medicine/aspirin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E307872A6FDF4426AEAF298B /* azithromycin.jpg */ = {isa = PBXFileReference; name = "azithromycin.jpg"; path = "../src/assets/images/medicine/azithromycin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A305395AC77B4977B826D6ED /* cetirizine.jpg */ = {isa = PBXFileReference; name = "cetirizine.jpg"; path = "../src/assets/images/medicine/cetirizine.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		225382EA08D844E8A798F135 /* coughsyrup.jpg */ = {isa = PBXFileReference; name = "coughsyrup.jpg"; path = "../src/assets/images/medicine/coughsyrup.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		393C4D77E7D1426BBBE4A2A0 /* ibuprofen.jpg */ = {isa = PBXFileReference; name = "ibuprofen.jpg"; path = "../src/assets/images/medicine/ibuprofen.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72719DAFACEC4A85896B157E /* loratadine.jpg */ = {isa = PBXFileReference; name = "loratadine.jpg"; path = "../src/assets/images/medicine/loratadine.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA095E0244B14C0684C8D61C /* metformin.jpg */ = {isa = PBXFileReference; name = "metformin.jpg"; path = "../src/assets/images/medicine/metformin.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2ACD2DFF71F4F46ADBDF900 /* omeprazole.jpg */ = {isa = PBXFileReference; name = "omeprazole.jpg"; path = "../src/assets/images/medicine/omeprazole.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A850ADA5FE34A308D6C173C /* salbutamol.jpg */ = {isa = PBXFileReference; name = "salbutamol.jpg"; path = "../src/assets/images/medicine/salbutamol.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3F062C1A13B4FA6B4C63FFE /* vitaminsyrup.jpg */ = {isa = PBXFileReference; name = "vitaminsyrup.jpg"; path = "../src/assets/images/medicine/vitaminsyrup.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE3B0B45E93A4F35B2853630 /* app_icons.ttf */ = {isa = PBXFileReference; name = "app_icons.ttf"; path = "../src/assets/fonts/app_icons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D6A458A69D94391AC515D32 /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C2DF18DD5494E29B780E943 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73DF777633D54B4292171693 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C671F0ACCB8F49ACB802D1B2 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		544723A42B44440CB3700A8B /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D64909E7BFE49B494528447 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +222,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3185B159D71E4311A3F2887C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +248,63 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		3185B159D71E4311A3F2887C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BCFFE86A1FC449438BE4B5BA /* paracetamol.jpg */,
+				828B6408B9B9456BA4FDAB47 /* ambulance.svg */,
+				BEBD3B44928341C0848A24B9 /* doctor.svg */,
+				38D9A2AC405E4A688595CB77 /* layout.svg */,
+				B9E00508D2D6465493A90C8E /* medicine.svg */,
+				2654972752C04AC9BF405797 /* ambulance.png */,
+				2E7A81B7D4164DE581B3A419 /* layout.png */,
+				797E30DAB2C44D07A5037CBA /* medicine.png */,
+				9A747751D828420891728A70 /* D1.jpg */,
+				BCBA9399160A413F8177D7DF /* D10.jpg */,
+				68503269882A4E99A44C7760 /* D2.jpg */,
+				E04A22B032344EFA9805CE1B /* D3.jpg */,
+				BF74E63CA9F046D1BEA0E281 /* D4.jpg */,
+				4E41A92321964074859A3E34 /* D5.jpg */,
+				8A07BD64133C493FA44A26C2 /* D6.jpg */,
+				51B6AADF3C0F41F087F8AD67 /* D7.jpg */,
+				58628964DB7F4549B1611912 /* D8.jpg */,
+				7C3244AD5C4D41BBB75382C9 /* D9.jpg */,
+				086DEDD92E7642DD91413D9F /* d1.jpg */,
+				18B1764BF0824DC093BFEDAA /* d10.jpg */,
+				3D0E425EE1CC4576B411A76D /* d2.jpg */,
+				BCE65273CDFE4F308CFC26DE /* d3.jpg */,
+				91E1277E2C934E97AA052E14 /* d4.jpg */,
+				7E17602D5DD84877B99D5F6A /* d5.jpg */,
+				20DC60A7DB9D46EAB625405B /* d6.jpg */,
+				81D877D4F95F466D90B6B271 /* d7.jpg */,
+				7B49CE87C5C84F1FAD7572E4 /* d8.jpg */,
+				D23098DA1A4B454B889078CC /* d9.jpg */,
+				A63FC59FD31F4778A7FD4541 /* amoxicillin.jpg */,
+				92ED328030304439A314FFF0 /* aspirin.jpg */,
+				E307872A6FDF4426AEAF298B /* azithromycin.jpg */,
+				A305395AC77B4977B826D6ED /* cetirizine.jpg */,
+				225382EA08D844E8A798F135 /* coughsyrup.jpg */,
+				393C4D77E7D1426BBBE4A2A0 /* ibuprofen.jpg */,
+				72719DAFACEC4A85896B157E /* loratadine.jpg */,
+				FA095E0244B14C0684C8D61C /* metformin.jpg */,
+				E2ACD2DFF71F4F46ADBDF900 /* omeprazole.jpg */,
+				9A850ADA5FE34A308D6C173C /* salbutamol.jpg */,
+				D3F062C1A13B4FA6B4C63FFE /* vitaminsyrup.jpg */,
+				AE3B0B45E93A4F35B2853630 /* app_icons.ttf */,
+				0D6A458A69D94391AC515D32 /* Poppins-Black.ttf */,
+				5C2DF18DD5494E29B780E943 /* Poppins-Bold.ttf */,
+				73DF777633D54B4292171693 /* Poppins-ExtraBold.ttf */,
+				C671F0ACCB8F49ACB802D1B2 /* Poppins-ExtraLight.ttf */,
+				544723A42B44440CB3700A8B /* Poppins-Light.ttf */,
+				1D64909E7BFE49B494528447 /* Poppins-Medium.ttf */,
+				A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */,
+				4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */,
+				F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +401,55 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E5F6F6B39A3B4D84BFEBDD0F /* paracetamol.jpg in Resources */,
+				966291D644994F28BA16CA99 /* ambulance.svg in Resources */,
+				3EC5C3591F7D41088429F04E /* doctor.svg in Resources */,
+				189F1F30F8014070BFCAE1BB /* layout.svg in Resources */,
+				B74B7B8BE8B7444892BA5104 /* medicine.svg in Resources */,
+				5329AC2B37FC47078D59B381 /* ambulance.png in Resources */,
+				5EA0876549E34177B8C005A2 /* layout.png in Resources */,
+				081785712631440C8CF9D881 /* medicine.png in Resources */,
+				B5F85FCDD82945D28778B3F2 /* D1.jpg in Resources */,
+				CE279661D02543659778EB11 /* D10.jpg in Resources */,
+				0EDF56D2FB6748EBA81FBDD5 /* D2.jpg in Resources */,
+				6D75B28D549944CC8A31F4A4 /* D3.jpg in Resources */,
+				14114891B2C3464EA4AE4E4B /* D4.jpg in Resources */,
+				A8D205D84C544C438A3C87BC /* D5.jpg in Resources */,
+				218D04613F924A2C851DEC4D /* D6.jpg in Resources */,
+				CD82169E7BC44A119CB416A8 /* D7.jpg in Resources */,
+				FAD426D3542E4AF385DA8CF0 /* D8.jpg in Resources */,
+				4D38871944DD4FBEAD58FAA3 /* D9.jpg in Resources */,
+				2D401E9EE6BF45C294E478BD /* d1.jpg in Resources */,
+				7612102F2A4E492DB05EAC36 /* d10.jpg in Resources */,
+				175C4CF4D2C54E8C888A6181 /* d2.jpg in Resources */,
+				E432E5B477D04389B809717E /* d3.jpg in Resources */,
+				0E80FF3F6FF141BABEA2AA77 /* d4.jpg in Resources */,
+				0EEBA51BA781400DA30A73B0 /* d5.jpg in Resources */,
+				C08837004DD345D49790712F /* d6.jpg in Resources */,
+				635265E184F94CF8A5F9F4EC /* d7.jpg in Resources */,
+				8244B30BAC1B4D0B81BEB23B /* d8.jpg in Resources */,
+				439CF3E54D6441A28A205857 /* d9.jpg in Resources */,
+				4B184F120EED4DE797EF649F /* amoxicillin.jpg in Resources */,
+				AFBF26AE7AEE4DF29E72526E /* aspirin.jpg in Resources */,
+				E93025BBEDA044D88866873B /* azithromycin.jpg in Resources */,
+				79189A2EFD284CA088EBEE93 /* cetirizine.jpg in Resources */,
+				B87AF5C7C86248C799137C16 /* coughsyrup.jpg in Resources */,
+				395BC52FB65B4A29A52C7652 /* ibuprofen.jpg in Resources */,
+				41C58E9AEF744411931371F4 /* loratadine.jpg in Resources */,
+				1F1F8D13A1A04891890B7250 /* metformin.jpg in Resources */,
+				28CF89597AB1423E8862B456 /* omeprazole.jpg in Resources */,
+				08341F963AD74447AB070F0A /* salbutamol.jpg in Resources */,
+				60B78B160815479A8D8D389A /* vitaminsyrup.jpg in Resources */,
+				F17348AAC4D94B26B857B706 /* app_icons.ttf in Resources */,
+				CB4E87F1E24B46369E43097F /* Poppins-Black.ttf in Resources */,
+				7611EB7AE64F412090763E9C /* Poppins-Bold.ttf in Resources */,
+				1CEA53F7377344FE9BEC8BF0 /* Poppins-ExtraBold.ttf in Resources */,
+				BCD21B08177B4FDB834CAE13 /* Poppins-ExtraLight.ttf in Resources */,
+				E664FA61765442AA884DE25D /* Poppins-Light.ttf in Resources */,
+				E123DE40FA284AB7A19F8228 /* Poppins-Medium.ttf in Resources */,
+				C5C68A23B7024E28927ADB34 /* Poppins-Regular.ttf in Resources */,
+				CE5A1E0BD9A546EBB773392D /* Poppins-SemiBold.ttf in Resources */,
+				0864C9CD77E04B1680C98245 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

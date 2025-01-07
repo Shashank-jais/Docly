@@ -1,0 +1,201 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/app_icons.ttf",
+      "sha1": "18e5fe2f93c853bbb495975f04df56438d595de5"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d1.jpg",
+      "sha1": "03998cfc630e6d60cafe1f4e27fb406ecbf3fe85"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d10.jpg",
+      "sha1": "12a41b14143dca2d8484e27c0658bddaff614202"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d2.jpg",
+      "sha1": "d3a854f26c05d2d566a2dc0be1b9c5031506d4cb"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d3.jpg",
+      "sha1": "1b14a643cd44f4453dcbb24cd11dcffd6794abf6"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d4.jpg",
+      "sha1": "908baf2555d9ad22df66963fb2a41ca4ccd9a39c"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d5.jpg",
+      "sha1": "8c241575f1c7ca4a0a818a75ac7bcc83786955fe"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d6.jpg",
+      "sha1": "d37f5097c19b707f2e492bf76282e659ec8c8dc6"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d7.jpg",
+      "sha1": "863d8a4bf6380b9805eddb9d62355725a0e9bb90"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d8.jpg",
+      "sha1": "921cf1f91db5a1573bc0ca55f8b2085ef0649b7d"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor/d9.jpg",
+      "sha1": "b48bc0f0821e277151a4b04fe6a0705c02cbd9f4"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D1.jpg",
+      "sha1": "22cbb462eefc2fe36161d70b694107563ddf684d"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D10.jpg",
+      "sha1": "4bf7058faf64ad593fee3a00b1a9996aa1b485b6"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D2.jpg",
+      "sha1": "4a9538e4028982cb8578bf933fc2b307ba08fedf"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D3.jpg",
+      "sha1": "16f12d464eb32c4c3a2671e3dad735dc8a1a6367"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D4.jpg",
+      "sha1": "76caebe234224d1811a34a8e874e46667d53bfdf"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D5.jpg",
+      "sha1": "25e741f351671077f9e44e49c6cfa9446c94b557"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D6.jpg",
+      "sha1": "8f0950c3495c79e7f2a65f5a6bf117d4205588cd"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D7.jpg",
+      "sha1": "5cf04a8196e2d7727b0ac72eb9374788ab263e00"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D8.jpg",
+      "sha1": "5817fe44276408d4ffcaff4dc410fd4955962854"
+    },
+    {
+      "path": "src/assets/images/doctor/doctor_200/D9.jpg",
+      "sha1": "36a9692eb80d365c0ea4c422cb1ba4c7c3eb4ef2"
+    },
+    {
+      "path": "src/assets/images/medicine/amoxicillin.jpg",
+      "sha1": "dd74c00b808fa1055f49bfd5e1a71f047f1f273b"
+    },
+    {
+      "path": "src/assets/images/medicine/aspirin.jpg",
+      "sha1": "0e3e9ba1d5988cf45448a3172b75a7d38e40574f"
+    },
+    {
+      "path": "src/assets/images/medicine/azithromycin.jpg",
+      "sha1": "e1b837a62389188ae33a96032abd2adaa902377a"
+    },
+    {
+      "path": "src/assets/images/medicine/cetirizine.jpg",
+      "sha1": "54eeeaabbeafce77b3952fb176ac6e48bcf1b4e9"
+    },
+    {
+      "path": "src/assets/images/medicine/coughsyrup.jpg",
+      "sha1": "831cd3e19d11bf74d4825754833b3908cfd2b00c"
+    },
+    {
+      "path": "src/assets/images/medicine/ibuprofen.jpg",
+      "sha1": "66ea8452e34b9ef6a4aca8e73ba8fe9df5424763"
+    },
+    {
+      "path": "src/assets/images/medicine/loratadine.jpg",
+      "sha1": "d2412b698fea6846d4448573875fb95a3401867a"
+    },
+    {
+      "path": "src/assets/images/medicine/metformin.jpg",
+      "sha1": "b1fba31f915088fadb1ec80ed1de662165cfc5bf"
+    },
+    {
+      "path": "src/assets/images/medicine/omeprazole.jpg",
+      "sha1": "2799609703b976d465305f04592587ec4b42bb7e"
+    },
+    {
+      "path": "src/assets/images/medicine/paracetamol.jpg",
+      "sha1": "bde2dec42d697a39ece640b0c1defe811adaf6b4"
+    },
+    {
+      "path": "src/assets/images/medicine/salbutamol.jpg",
+      "sha1": "2fa20c7cc992dca9db8a170d8dd93cd08f671c82"
+    },
+    {
+      "path": "src/assets/images/medicine/vitaminsyrup.jpg",
+      "sha1": "2270f4ad7464a9d020be63b2b7b9fad8e0e5a459"
+    },
+    {
+      "path": "src/assets/svg/ambulance.svg",
+      "sha1": "2c2ab4c5a67fe78b63d7bf837131ee2a42eb1293"
+    },
+    {
+      "path": "src/assets/svg/doctor.svg",
+      "sha1": "c3d1d906fbcb132d0af36d43755a6665ecc9b4b4"
+    },
+    {
+      "path": "src/assets/svg/layout.svg",
+      "sha1": "892e4159f7fd5036901e99cf337eba83f54d7d21"
+    },
+    {
+      "path": "src/assets/svg/medicine.svg",
+      "sha1": "830deeffea0cf2544049c4b1ea6eaab2ba63fbd2"
+    },
+    {
+      "path": "src/assets/svg_images/ambulance.png",
+      "sha1": "ac3c8bfcb6b4a9740e3c1262fe022563d467801f"
+    },
+    {
+      "path": "src/assets/svg_images/layout.png",
+      "sha1": "e843ccbc0a3fc40a709539453f1258825d4bff22"
+    },
+    {
+      "path": "src/assets/svg_images/medicine.png",
+      "sha1": "1e7a3e27d7550a7013629833c66cbf4aee2d5e2a"
+    }
+  ]
+}
