@@ -76,7 +76,8 @@ export default TabNavigator
 
 const styles = StyleSheet.create({
     tabBarStyle: {
-        height: 80,
+        height: 70,
+        padding:10,
         position: 'absolute',
         // backgroundColor: COLORS.primaryBlackRGBA,
         borderTopWidth: 0,

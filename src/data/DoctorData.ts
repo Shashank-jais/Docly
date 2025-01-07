@@ -22,7 +22,7 @@ const DoctorData = [
   {
     id: 3,
     index: 2,
-    userName: "Dr. Johnathan Crane",
+    userName: "Dr. Johnathan",
     userProfession: "Psychiatrist",
     userRating: 4.7,
     userDistance: "2km away",

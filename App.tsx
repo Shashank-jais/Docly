@@ -8,6 +8,7 @@ import Dr_detailsScreen from './src/screens/Dr_detailsScreen';
 import Dr_listScreen from './src/screens/Dr_listScreen';
 import DrugDetailsScreen from './src/screens/DrugDetailsScreen';
 import PharmacyScreen from './src/screens/PharmacyScreen';
+import ScheduleScreen from './src/screens/ScheduleScreen';
 
 
 
@@ -43,7 +44,12 @@ function App(): React.JSX.Element {
         name='Pharmacy'
         component={PharmacyScreen}
         options={{animation:'slide_from_bottom'}}></Stack.Screen>
+        <Stack.Screen 
+        name='Appointment'
+        component={ScheduleScreen}
+        options={{animation:'slide_from_bottom'}}></Stack.Screen>
       </Stack.Navigator>
+      
     </NavigationContainer>
   );
 }

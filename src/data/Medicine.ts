@@ -95,7 +95,7 @@ const Medicine = [
     size: "100ml",
     price: 50,
     description: "Soothes throat irritation and relieves cough.",
-    medImage: require("../assets/images/medicine/coughsyrup"),
+    medImage: require("../assets/images/medicine/coughsyrup.jpg"),
     rating: 4.7
   },
   {
