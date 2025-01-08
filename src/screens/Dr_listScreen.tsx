@@ -6,11 +6,14 @@ import { useStore } from '../store/store'
 import DrListCard from '../components/DrListCard'
 
 
+
 const Dr_listScreen = ({ navigation }: any) => {
 
   const DoctorData = useStore((state: any) => state.DoctorData);
   // console.log(DoctorData);
 
+
+  
   const backHandler = () => {
     navigation.pop();
   }
@@ -19,7 +22,7 @@ const Dr_listScreen = ({ navigation }: any) => {
       <StatusBar backgroundColor={COLORS.white} />
       <Header title='Top Doctors' backHandler={backHandler} />
       
-        <View>
+        <View style={{marginBottom:SPACING.space_36*2}}>
           {DoctorData.length > 0 ? (
             <FlatList
               showsVerticalScrollIndicator={false}
