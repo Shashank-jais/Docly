@@ -63,6 +63,8 @@
 		C5C68A23B7024E28927ADB34 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */; };
 		CE5A1E0BD9A546EBB773392D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */; };
 		0864C9CD77E04B1680C98245 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */; };
+		9A10BE86394746C6AAADE901 /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B9C44BB7244ED48349A5FC /* doctor.png */; };
+		5C315B6919774F3D9BDF6BE3 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 783D6723AB654BF1982405B6 /* map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,8 @@
 		A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28B9C44BB7244ED48349A5FC /* doctor.png */ = {isa = PBXFileReference; name = "doctor.png"; path = "../src/assets/svg_images/doctor.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		783D6723AB654BF1982405B6 /* map.png */ = {isa = PBXFileReference; name = "map.png"; path = "../src/assets/svg_images/map.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +305,8 @@
 				A4204DC8C9044A93BCF705E9 /* Poppins-Regular.ttf */,
 				4484DAAF2BDB46EAB47DE911 /* Poppins-SemiBold.ttf */,
 				F885BF6535304F028C08C9BA /* Poppins-Thin.ttf */,
+				28B9C44BB7244ED48349A5FC /* doctor.png */,
+				783D6723AB654BF1982405B6 /* map.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -450,6 +456,8 @@
 				C5C68A23B7024E28927ADB34 /* Poppins-Regular.ttf in Resources */,
 				CE5A1E0BD9A546EBB773392D /* Poppins-SemiBold.ttf in Resources */,
 				0864C9CD77E04B1680C98245 /* Poppins-Thin.ttf in Resources */,
+				9A10BE86394746C6AAADE901 /* doctor.png in Resources */,
+				5C315B6919774F3D9BDF6BE3 /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
