@@ -46,7 +46,7 @@ const ScheduleScreen = ({ navigation, route }: any) => {
         <View style={styles.DateContainer}>
           <View style={styles.DateContainerHeadingRow}>
             <Text style={styles.DateHeading}>Date</Text>
-            <Text style={styles.ChangeHeading}>Change</Text>
+            <TouchableOpacity onPress={()=>{navigation.pop()}}><Text style={styles.ChangeHeading}>Change</Text></TouchableOpacity>
           </View>
           <View style={styles.DateContainerDateRow}>
             <Image source={require("../assets/svg_images/appointmentblue.png")} style={styles.CalenderImage} />
@@ -60,7 +60,7 @@ const ScheduleScreen = ({ navigation, route }: any) => {
         <View style={styles.DateContainer}>
           <View style={styles.DateContainerHeadingRow}>
             <Text style={styles.DateHeading}>Reason</Text>
-            <Text style={styles.ChangeHeading}>Change</Text>
+            <TouchableOpacity onPress={()=>{navigation.pop()}}><Text style={styles.ChangeHeading}>Change</Text></TouchableOpacity>
           </View>
           <View style={styles.DateContainerDateRow}>
             <Image source={require("../assets/svg_images/editicon.png")} style={styles.CalenderImage} />
@@ -106,7 +106,7 @@ const ScheduleScreen = ({ navigation, route }: any) => {
 
 
         {/* Payment Method */}
-        <View style={styles.DateContainer}>
+        <View style={[styles.DateContainer,{marginTop:SPACING.space_4}]}>
           <View style={styles.DateContainerHeadingRow}>
             <Text style={styles.DateHeading}>Payment Methods</Text>
           </View>
@@ -206,6 +206,8 @@ const styles = StyleSheet.create({
   BtnContainer: {
     flexDirection: "row",
     margin: SPACING.space_18,
+    marginTop:-8,
+    marginBottom: SPACING.space_2,
     justifyContent: "space-between",
     backgroundColor: COLORS.teal50,
     borderRadius: BORDERRADIUS.radius_10,
