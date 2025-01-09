@@ -23,7 +23,6 @@ const HomeScreen = ({ navigation }: any) => {
         animated: true,
         offset: 0,
       });
-      console.log("Search:", search);
       setSortedDoctor([
         ...DoctorList.filter((item: any) =>
             item.userName.toLowerCase().includes(search.toLowerCase())

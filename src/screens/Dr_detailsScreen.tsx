@@ -3,27 +3,14 @@ import React, { useState } from 'react'
 import { BORDERRADIUS, COLORS, FONTFAMILY, FONTSIZE, SPACING } from '../theme/theme'
 import Header from '../components/Header'
 import DrListCard from '../components/DrListCard'
+import { useStore } from '../store/store'
 
 const Dr_detailsScreen = ({ navigation, route }: any) => {
-
-  const item = route.params;
-  const [slotDate, setSlotDate] = useState({ day: "", date: "" })
-  const [slotTime, setSlotTime] = useState("");
-  const [focusseDate, setFocusseDate] = useState(0);
-  const [focussedTime, setFocussedTime] = useState(0);
-
-  const timeArray = ["09:00 AM", "10:00 AM", "11:00 AM", "01:00 PM", "02:00 PM", "03:00 PM", "04:00 PM", "07:00 PM"];
-
-  // console.log("Slot Date: ",slotTime);
-
-  const backhandler = () => {
-    navigation.pop();
-  }
 
   function getDatesAndDaysOfCurrentMonth() {
     const currentDate = new Date();
     const year = currentDate.getFullYear();
-    const month = currentDate.getMonth(); 
+    const month = currentDate.getMonth();
     const daysInMonth = new Date(year, month + 1, 0).getDate();
 
     const datesAndDays = [];
@@ -31,7 +18,7 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
     for (let day = 1; day <= daysInMonth; day++) {
       const date = new Date(year, month, day);
       const dayName = date.toLocaleString('default', { weekday: 'long' });
-      const dateNumber = String(day).padStart(2, '0'); 
+      const dateNumber = String(day).padStart(2, '0');
 
       datesAndDays.push({ day: dayName, date: dateNumber });
     }
@@ -40,9 +27,31 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
   }
 
   const datesAndDays = getDatesAndDaysOfCurrentMonth();
+  const timeArray = ["09:00 AM", "10:00 AM", "11:00 AM", "01:00 PM", "02:00 PM", "03:00 PM", "04:00 PM", "07:00 PM"];
+
+
+  const item = route.params;
+  const [slotDate, setSlotDate] = useState({ day: datesAndDays[0].day, date: datesAndDays[0].date })
+  const [slotTime, setSlotTime] = useState(timeArray[0]);
+  const [focusseDate, setFocusseDate] = useState(0);
+  const [focussedTime, setFocussedTime] = useState(0);
+
+  const AddAppoitment = useStore((state: any) => state.AddAppoitment);
+
+  const AddAppoitmentHandler = (date: any, time: any) => {
+    AddAppoitment({ ...date, time: time , doctor : {...item} });
+  }
+
+
+  // console.log("Slot Date: ",slotTime);
+
+  const backhandler = () => {
+    navigation.pop();
+  }
+
 
   const slotDateHandler = () => {
-    navigation.push("Appointment", {  ...slotDate, time: slotTime });
+    navigation.push("Appointment", { ...slotDate, time: slotTime , doctor : {...item}  });
   }
 
   const slotDateBookStyle = (index: any): ViewStyle => ({
@@ -134,7 +143,9 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
 
         {/* Appointment Button */}
         <View style={styles.ButtonContainer}>
-          <TouchableOpacity style={styles.Btn} onPress={() => slotDateHandler()}>
+          <TouchableOpacity style={styles.Btn} onPress={() => {
+            slotDateHandler()
+          }}>
             <Text style={styles.BtnText}>Book Appointment</Text>
           </TouchableOpacity>
         </View>
@@ -171,14 +182,14 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
   },
   CalendarContainerInner: {
-    width: 60, 
-    height: 60, 
+    width: 60,
+    height: 60,
     borderWidth: 1,
     borderColor: COLORS.teal50,
     borderRadius: 8,
-    margin: 6, 
+    margin: 6,
     alignItems: 'center',
-    justifyContent: 'center', 
+    justifyContent: 'center',
 
   },
   CalendarDayText: {
@@ -189,7 +200,7 @@ const styles = StyleSheet.create({
   CalendarDateText: {
     fontFamily: FONTFAMILY.poppins_semibold,
     fontSize: FONTSIZE.size_16,
-    color: COLORS.teal300, 
+    color: COLORS.teal300,
   },
   timeText: {
     fontFamily: FONTFAMILY.poppins_regular,

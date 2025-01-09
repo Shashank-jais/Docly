@@ -7,6 +7,7 @@ import { COLORS } from '../theme/theme';
 import MessageScreen from '../screens/MessageScreen';
 import ScheduleScreen from '../screens/ScheduleScreen';
 import ProfileScreen from '../screens/ProfileScreen';
+import AppointmentNavBar from '../screens/AppointmentNavBar';
 
 
 
@@ -48,7 +49,7 @@ const TabNavigator = () => {
         ></Tab.Screen>
         <Tab.Screen
         name='Appointment'
-        component={ScheduleScreen}
+        component={AppointmentNavBar}
         options={{
             tabBarIcon: ({ focused, color, size }) => (
                 <CustomIcons name="home"

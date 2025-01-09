@@ -190,12 +190,28 @@
       "sha1": "ac3c8bfcb6b4a9740e3c1262fe022563d467801f"
     },
     {
+      "path": "src/assets/svg_images/appointmentblue.png",
+      "sha1": "4b856f7967e06347ff8fca7ff3be83744370ec4a"
+    },
+    {
+      "path": "src/assets/svg_images/appointmentgray.png",
+      "sha1": "8f3b30e5e0bdcfbee92e625ee58b59981331cf5d"
+    },
+    {
       "path": "src/assets/svg_images/doctor.png",
       "sha1": "8b4e67e5d36e857527e8889a3e8ec64bbaa495d7"
     },
     {
+      "path": "src/assets/svg_images/editicon.png",
+      "sha1": "2f89708fa90a2525f844bce9379d7617e9d36dc8"
+    },
+    {
       "path": "src/assets/svg_images/layout.png",
       "sha1": "e843ccbc0a3fc40a709539453f1258825d4bff22"
+    },
+    {
+      "path": "src/assets/svg_images/logo.png",
+      "sha1": "f9cdec58e89beb6cc6ee6ecd200ca4c2a27aee7b"
     },
     {
       "path": "src/assets/svg_images/map.png",
@@ -204,6 +220,22 @@
     {
       "path": "src/assets/svg_images/medicine.png",
       "sha1": "1e7a3e27d7550a7013629833c66cbf4aee2d5e2a"
+    },
+    {
+      "path": "src/assets/svg_images/phonegray.png",
+      "sha1": "ba7fefdfbc3425dd8e73eb816469144929a4cf62"
+    },
+    {
+      "path": "src/assets/svg_images/screenlogo.png",
+      "sha1": "89b93f9f87edcca20583542075e935e41584f831"
+    },
+    {
+      "path": "src/assets/svg_images/timegray.png",
+      "sha1": "b10082367ed04c4077294e3fdac211718f71a663"
+    },
+    {
+      "path": "src/assets/svg_images/walletblue.png",
+      "sha1": "c4b267ee8a4a7f5171629dbc8b6a8645201c7b62"
     }
   ]
 }
