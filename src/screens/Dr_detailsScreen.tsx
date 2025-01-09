@@ -23,17 +23,15 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
   function getDatesAndDaysOfCurrentMonth() {
     const currentDate = new Date();
     const year = currentDate.getFullYear();
-    const month = currentDate.getMonth(); // 0-indexed (January is 0)
-
-    // Get the number of days in the current month
+    const month = currentDate.getMonth(); 
     const daysInMonth = new Date(year, month + 1, 0).getDate();
 
     const datesAndDays = [];
 
     for (let day = 1; day <= daysInMonth; day++) {
       const date = new Date(year, month, day);
-      const dayName = date.toLocaleString('default', { weekday: 'long' }); // Short day name (e.g., Wed)
-      const dateNumber = String(day).padStart(2, '0'); // Format as two digits (e.g., 01)
+      const dayName = date.toLocaleString('default', { weekday: 'long' });
+      const dateNumber = String(day).padStart(2, '0'); 
 
       datesAndDays.push({ day: dayName, date: dateNumber });
     }
@@ -173,14 +171,14 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
   },
   CalendarContainerInner: {
-    width: 60, // Width of each box
-    height: 60, // Height of each box
+    width: 60, 
+    height: 60, 
     borderWidth: 1,
     borderColor: COLORS.teal50,
     borderRadius: 8,
-    margin: 6, // Space between boxes
-    alignItems: 'center', // Center content horizontally
-    justifyContent: 'center', // Center content vertically
+    margin: 6, 
+    alignItems: 'center',
+    justifyContent: 'center', 
 
   },
   CalendarDayText: {
@@ -191,7 +189,7 @@ const styles = StyleSheet.create({
   CalendarDateText: {
     fontFamily: FONTFAMILY.poppins_semibold,
     fontSize: FONTSIZE.size_16,
-    color: COLORS.teal300, // Optional text color
+    color: COLORS.teal300, 
   },
   timeText: {
     fontFamily: FONTFAMILY.poppins_regular,
