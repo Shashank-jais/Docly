@@ -20,7 +20,7 @@ const MessageScreen = ({ navigation }: any) => {
     padding: SPACING.space_14,
     width: "33%",
     alignItems: "center",
-    justifyContent: "center", 
+    justifyContent: "center",
   });
 
   const getButtonTextStyle = (button: string) => ({
@@ -55,10 +55,15 @@ const MessageScreen = ({ navigation }: any) => {
           <View style={styles.MessageRow}>
             <Image source={require("../assets/images/doctor/doctor_200/D1.jpg")} resizeMode='cover'
               style={styles.CardImageBG} />
-              <View style={styles.MessageBoxContent}>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentTitle}>Dr. Marcus Horizo</Text> <Text>10:24</Text></View>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Expert in heart health and cardiovascular...</Text></View>
+            <View style={styles.MessageBoxContent}>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentTitle}>Dr. Marcus Horizo</Text>
+                <Text>10:24</Text>
               </View>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Expert in heart health and cardiovascular...</Text>
+              </View>
+            </View>
           </View>
 
 
@@ -66,10 +71,15 @@ const MessageScreen = ({ navigation }: any) => {
           <View style={styles.MessageRow}>
             <Image source={require("../assets/images/doctor/doctor_200/D2.jpg")} resizeMode='cover'
               style={styles.CardImageBG} />
-              <View style={styles.MessageBoxContent}>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentTitle}>Dr. Emily Rhodes</Text> <Text>07:24</Text></View>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Specializes in child healthcare and wellness...</Text></View>
+            <View style={styles.MessageBoxContent}>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentTitle}>Dr. Emily Rhodes</Text>
+                <Text>07:24</Text>
               </View>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Specializes in child healthcare and wellness...</Text>
+              </View>
+            </View>
           </View>
 
 
@@ -77,10 +87,15 @@ const MessageScreen = ({ navigation }: any) => {
           <View style={styles.MessageRow}>
             <Image source={require("../assets/images/doctor/doctor_200/D3.jpg")} resizeMode='cover'
               style={styles.CardImageBG} />
-              <View style={styles.MessageBoxContent}>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentTitle}>Dr. Johnathan</Text> <Text>03:55</Text></View>
-                <View style={styles.MessageBoxContentTitleContainer}><Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Focused on mental health and psychiatric therapy for all age groups....</Text></View>
+            <View style={styles.MessageBoxContent}>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentTitle}>Dr. Johnathan</Text>
+                <Text>03:55</Text>
               </View>
+              <View style={styles.MessageBoxContentTitleContainer}>
+                <Text style={styles.MessageBoxContentMessage} numberOfLines={1}>Focused on mental health and psychiatric therapy for all age groups....</Text>
+              </View>
+            </View>
           </View>
 
 
@@ -118,26 +133,26 @@ const styles = StyleSheet.create({
   CardImageBG: {
     width: CARD_WIDTH,
     height: CARD_WIDTH,
-    borderRadius:50,
+    borderRadius: 50,
     overflow: 'hidden'
   },
-  MessageBoxContent:{
+  MessageBoxContent: {
     height: CARD_WIDTH,
-    width:"80%",
-    marginHorizontal:SPACING.space_8,
+    width: "80%",
+    marginHorizontal: SPACING.space_8,
     justifyContent: "center",
   },
-  MessageBoxContentTitleContainer:{
-    flexDirection:"row",
-    justifyContent:"space-between"
+  MessageBoxContentTitleContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between"
   },
-  MessageBoxContentTitle:{
-    fontFamily:FONTFAMILY.poppins_semibold,
-    fontSize:FONTSIZE.size_16,
+  MessageBoxContentTitle: {
+    fontFamily: FONTFAMILY.poppins_semibold,
+    fontSize: FONTSIZE.size_16,
   },
-  MessageBoxContentMessage:{
-    fontFamily:FONTFAMILY.poppins_light,
-    fontSize:FONTSIZE.size_12,
+  MessageBoxContentMessage: {
+    fontFamily: FONTFAMILY.poppins_light,
+    fontSize: FONTSIZE.size_12,
   },
 
 

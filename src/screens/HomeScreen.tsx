@@ -149,7 +149,7 @@ const HomeScreen = ({ navigation }: any) => {
               renderItem={({ item }) => {
                 return <TouchableOpacity
                   onPress={() => {
-                    navigation.push("DrDetails", { index: item.index, id: item.id, name: item.userName })
+                    navigation.push("DrDetails", {...item})
                   }}>
                   <DoctorListCard
                     id={item.id}

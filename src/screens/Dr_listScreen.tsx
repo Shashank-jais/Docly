@@ -32,7 +32,7 @@ const Dr_listScreen = ({ navigation }: any) => {
               renderItem={({ item }) => {
                 return <TouchableOpacity
                 onPress={() => {
-                  navigation.push("DrDetails", { index: item.index, id: item.id, name: item.userName })
+                  navigation.push("DrDetails", { ...item })
                 }}>
                   <DrListCard
                     id={item.id}
