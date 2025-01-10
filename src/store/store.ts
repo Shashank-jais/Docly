@@ -1,36 +1,46 @@
 import { create } from "zustand";
 import { produce } from "immer";
-import {persist,createJSONStorage} from "zustand/middleware";
-import AsyncStorage,{useAsyncStorage} from "@react-native-async-storage/async-storage";
+import { persist, createJSONStorage } from "zustand/middleware";
+import AsyncStorage, { useAsyncStorage } from "@react-native-async-storage/async-storage";
 import DoctorData from "../data/DoctorData";
 import Medicine from "../data/Medicine";
 
 export const useStore = create(
     persist(
-        (set,get)=>({
+        (set, get) => ({
             DoctorData: DoctorData,
-            Medicine:Medicine,
-            Appointment:[],
-            AddAppoitment:(item : any) =>
-                set(produce(state=>{
+            Medicine: Medicine,
+            Appointment: [],
+            AddAppoitment: (item: any) =>
+                set(produce(state => {
                     let found = false;
-                    for(let i = 0 ; i < state.Appointment.length;i++){
-                        if(state.Appointment[i].doctor.id === item.doctor.id){
+                    for (let i = 0; i < state.Appointment.length; i++) {
+                        if (state.Appointment[i].doctor.id === item.doctor.id) {
                             found = true;
                             state.Appointment[i].date = item.date;
                             state.Appointment[i].day = item.day;
                             state.Appointment[i].time = item.time;
                         }
                     }
-                    if(found==false){
+                    if (found == false) {
                         state.Appointment.push(item);
                     }
-                    
-                    console.log("Updated Appoitments", state.Appointment);
-                }))
+
+                    // console.log("Updated Appoitments", state.Appointment);
+                })),
+            RemoveAppointment: (item: any) =>
+                set(produce(state => {
+                    for (let i = 0; i < state.Appointment.length; i++) {
+                        if (state.Appointment[i].doctor.id === item.doctor.id) {
+                            state.Appointment.splice(i, 1);
+                        }
+                    }
+                   
+                    // console.log("Updated Appoitments", state.Appointment);
+                })),
         }),
         {
-            name:"Docly",
+            name: "Docly",
             storage: createJSONStorage(() => AsyncStorage),
         }
     )

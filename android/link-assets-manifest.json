@@ -198,12 +198,32 @@
       "sha1": "8f3b30e5e0bdcfbee92e625ee58b59981331cf5d"
     },
     {
+      "path": "src/assets/svg_images/cartblue.png",
+      "sha1": "ad925a2d193e2a936ebbbad04818f987f895d9c1"
+    },
+    {
+      "path": "src/assets/svg_images/cartgray.png",
+      "sha1": "ce29dff33e0b6d8d20195e8761f5186abd98c165"
+    },
+    {
+      "path": "src/assets/svg_images/deletegray.png",
+      "sha1": "5e3c24c61e9c8009abbd55a77354d15b3f4e850e"
+    },
+    {
       "path": "src/assets/svg_images/doctor.png",
       "sha1": "8b4e67e5d36e857527e8889a3e8ec64bbaa495d7"
     },
     {
       "path": "src/assets/svg_images/editicon.png",
       "sha1": "2f89708fa90a2525f844bce9379d7617e9d36dc8"
+    },
+    {
+      "path": "src/assets/svg_images/heartratewhite.png",
+      "sha1": "086953ba4e042d57831789b828a09c42f97032f4"
+    },
+    {
+      "path": "src/assets/svg_images/help.png",
+      "sha1": "adeb4c5bdb22755fca77759e853f323da0b09b05"
     },
     {
       "path": "src/assets/svg_images/layout.png",

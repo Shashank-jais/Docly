@@ -73,6 +73,11 @@
 		519B254D58AB4F2788FB3261 /* timegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA852A048954F00BF25BE5C /* timegray.png */; };
 		E7204E75D92B4E41B6CF146E /* walletblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9B4474273475C9C4E782B /* walletblue.png */; };
 		429E011BA8AF4B628C90B155 /* editicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 902A05851F63483F88009E9D /* editicon.png */; };
+		3E89229D48B14E6BB95C57DF /* cartblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 870CC7F3F7E04BB8A2AB50D7 /* cartblue.png */; };
+		BE461E3B14184775A228ACDA /* cartgray.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A69B9E2DB24946BC4FB51D /* cartgray.png */; };
+		4B9DE3689D0D42D5B40F8749 /* deletegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 52454AEAA1C741858B5688A8 /* deletegray.png */; };
+		E251E6C39C2342AD84BF53C5 /* heartratewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D565B4598C394FCDB1088D55 /* heartratewhite.png */; };
+		45E6537AAA0A457EB99EB9AF /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = D51FC6F730224FFCAFB1360C /* help.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +168,11 @@
 		9BA852A048954F00BF25BE5C /* timegray.png */ = {isa = PBXFileReference; name = "timegray.png"; path = "../src/assets/svg_images/timegray.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		80B9B4474273475C9C4E782B /* walletblue.png */ = {isa = PBXFileReference; name = "walletblue.png"; path = "../src/assets/svg_images/walletblue.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		902A05851F63483F88009E9D /* editicon.png */ = {isa = PBXFileReference; name = "editicon.png"; path = "../src/assets/svg_images/editicon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		870CC7F3F7E04BB8A2AB50D7 /* cartblue.png */ = {isa = PBXFileReference; name = "cartblue.png"; path = "../src/assets/svg_images/cartblue.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3A69B9E2DB24946BC4FB51D /* cartgray.png */ = {isa = PBXFileReference; name = "cartgray.png"; path = "../src/assets/svg_images/cartgray.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52454AEAA1C741858B5688A8 /* deletegray.png */ = {isa = PBXFileReference; name = "deletegray.png"; path = "../src/assets/svg_images/deletegray.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D565B4598C394FCDB1088D55 /* heartratewhite.png */ = {isa = PBXFileReference; name = "heartratewhite.png"; path = "../src/assets/svg_images/heartratewhite.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D51FC6F730224FFCAFB1360C /* help.png */ = {isa = PBXFileReference; name = "help.png"; path = "../src/assets/svg_images/help.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +341,11 @@
 				9BA852A048954F00BF25BE5C /* timegray.png */,
 				80B9B4474273475C9C4E782B /* walletblue.png */,
 				902A05851F63483F88009E9D /* editicon.png */,
+				870CC7F3F7E04BB8A2AB50D7 /* cartblue.png */,
+				D3A69B9E2DB24946BC4FB51D /* cartgray.png */,
+				52454AEAA1C741858B5688A8 /* deletegray.png */,
+				D565B4598C394FCDB1088D55 /* heartratewhite.png */,
+				D51FC6F730224FFCAFB1360C /* help.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -490,6 +505,11 @@
 				519B254D58AB4F2788FB3261 /* timegray.png in Resources */,
 				E7204E75D92B4E41B6CF146E /* walletblue.png in Resources */,
 				429E011BA8AF4B628C90B155 /* editicon.png in Resources */,
+				3E89229D48B14E6BB95C57DF /* cartblue.png in Resources */,
+				BE461E3B14184775A228ACDA /* cartgray.png in Resources */,
+				4B9DE3689D0D42D5B40F8749 /* deletegray.png in Resources */,
+				E251E6C39C2342AD84BF53C5 /* heartratewhite.png in Resources */,
+				45E6537AAA0A457EB99EB9AF /* help.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

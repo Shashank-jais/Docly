@@ -31,6 +31,7 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
 
 
   const item = route.params;
+
   const [slotDate, setSlotDate] = useState({ day: datesAndDays[0].day, date: datesAndDays[0].date })
   const [slotTime, setSlotTime] = useState(timeArray[0]);
   const [focusseDate, setFocusseDate] = useState(0);
@@ -43,8 +44,7 @@ const Dr_detailsScreen = ({ navigation, route }: any) => {
   }
 
 
-  // console.log("Slot Date: ",slotTime);
-
+  
   const backhandler = () => {
     navigation.pop();
   }
