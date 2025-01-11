@@ -111,7 +111,7 @@ const HomeScreen = ({ navigation }: any) => {
             </View>
             <View style={styles.card}>
               <TouchableOpacity onPress={() => {
-                navigation.push("Appointment")
+                navigation.navigate("Tab",{screen:"Appointment"})
               }}>
                 <Image source={require("../assets/svg_images/layout.png")} style={[styles.CardImage, {
                   resizeMode: "contain",
