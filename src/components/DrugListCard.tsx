@@ -1,7 +1,8 @@
-import { Dimensions, Image, ImageBackground, ImageProps, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { Dimensions, Image, ImageBackground, ImageProps, StyleSheet, Text, ToastAndroid, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import CustomIcons from './CustomIcons';
 import { BORDERRADIUS, COLORS, FONTFAMILY, FONTSIZE, SPACING } from '../theme/theme';
+import { useStore } from '../store/store';
 
 interface DrugListCardProps {
     id: number;
@@ -17,6 +18,21 @@ const CARD_WIDTH = Dimensions.get('window').width * 0.25;
 const DrugListCard: React.FC<DrugListCardProps> = ({
     id, name, description, price, size, rating, medImage
 }: any) => {
+
+    const addToCart = useStore((state: any) => state.addToCart);
+    const calculateCartPrice = useStore((state: any) => state.calculateCartPrice);
+    const item = {id:id,name:name,price:price,description:description,size:size,medImage:medImage,rating:rating,quantity:1}
+
+    const addToCartHandler = () => {
+        const CartItem = { ...item };
+        addToCart(CartItem);
+        calculateCartPrice();
+        ToastAndroid.showWithGravity(
+            `${item.name} is Added to Cart`,
+            ToastAndroid.SHORT,
+            ToastAndroid.CENTER,
+        );
+    }
     return (
         <View style={styles.CardContainer}>
             <ImageBackground
@@ -32,6 +48,9 @@ const DrugListCard: React.FC<DrugListCardProps> = ({
                 </View>
                 <TouchableOpacity
                     style={styles.CartItemIcon}
+                    onPress={()=>{
+                        addToCartHandler();
+                    }}
                 >
                     <CustomIcons
                         name="add"

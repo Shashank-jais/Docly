@@ -1,4 +1,4 @@
-import { Image, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { Image, ScrollView, StatusBar, StyleSheet, Text, ToastAndroid, TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 import DrugHeader from '../components/DrugHeader';
 import { BORDERRADIUS, COLORS, FONTFAMILY, FONTSIZE, SPACING } from '../theme/theme';
@@ -17,6 +17,12 @@ const DrugDetailsScreen = ({ navigation, route }: any) => {
     const CartItem = {...item,quantity:quantity};
     addToCart(CartItem);
     calculateCartPrice();
+    ToastAndroid.showWithGravity(
+      `${item.name} is Added to Cart`,
+      ToastAndroid.SHORT,
+      ToastAndroid.CENTER,
+    );
+
   }
 
   const backHandler = () => {
@@ -126,6 +132,7 @@ const DrugDetailsScreen = ({ navigation, route }: any) => {
           <TouchableOpacity style={[styles.commonBTN, { backgroundColor: COLORS.cyan300, width: "65%", }]}
             onPress={() => {
               addToCartHandler();
+              cartHandler();
             }}>
             <Text style={styles.btntext}>Buy now</Text>
           </TouchableOpacity>

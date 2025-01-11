@@ -12,7 +12,7 @@ export const useStore = create(
             Medicine: Medicine,
             Appointment: [],
             CartList: [],
-            Cartprice:0,
+            Cartprice: 0,
             AddAppoitment: (item: any) =>
                 set(produce(state => {
                     let found = false;
@@ -37,46 +37,72 @@ export const useStore = create(
                             state.Appointment.splice(i, 1);
                         }
                     }
-                   
+
                     // console.log("Updated Appoitments", state.Appointment);
                 })),
-            addToCart:(item:any)=>
+            addToCart: (item: any) =>
                 set(
-                    produce(state=>{
+                    produce(state => {
 
                         let found = false;
-                        for(let i=0; i<state.CartList.length; i++){
-                            if(state.CartList[i].id === item.id){
+                        for (let i = 0; i < state.CartList.length; i++) {
+                            if (state.CartList[i].id === item.id) {
                                 found = true;
-                                if("quantity" in state.CartList[i] && state.CartList[i].quantity>=0){
-                                    state.CartList[i].quantity +=item.quantity;
+                                if ("quantity" in state.CartList[i] && state.CartList[i].quantity >= 0) {
+                                    state.CartList[i].quantity += item.quantity;
                                 }
-                                else{
+                                else {
                                     state.CartList[i].quantity = item.quantity;
                                 }
                             }
                         }
-                        if(found ==false){
+                        if (found == false) {
                             state.CartList.push(item);
                         }
-                        
-                        // console.log("item added: ", state.CartList);
+
+
                     })),
-            calculateCartPrice:()=>
+            calculateCartPrice: () =>
                 set(
-                    produce(state=>{
+                    produce(state => {
                         let totatPrice = 0;
 
-                        for(let i=0; i<state.CartList.length;i++){
-                            state.CartList[i].itemPrice  = state.CartList[i].quantity * state.CartList[i].price;
+                        for (let i = 0; i < state.CartList.length; i++) {
+                            state.CartList[i].itemPrice = state.CartList[i].quantity * state.CartList[i].price;
                             totatPrice += state.CartList[i].itemPrice;
                         }
 
                         state.Cartprice = totatPrice.toFixed(2).toString();
-                        // console.log("item added: ", state.CartList);
-                        // console.log("Total Cart Price: ", state.Cartprice);
+
                     })
-                )
+                ),
+            incrementQuantityHandler: (id: any) =>
+                set(produce(state => {
+
+                    for (let i = 0; i < state.CartList.length; i++) {
+                        if (state.CartList[i].id === id) {
+                            state.CartList[i].quantity++;
+                            break;
+                        }
+                    }
+                    console.log("cartList: " + JSON.stringify(state.CartList));
+
+                })),
+            decrementQuantityHandler: (id: any) =>
+                set(produce(state => {
+
+                    for (let i = 0; i < state.CartList.length; i++) {
+                        if (state.CartList[i].id === id) {
+                            state.CartList[i].quantity--;
+                            if (state.CartList[i].quantity <= 0) {
+                                state.CartList.splice(i, 1);
+                            }
+                            break;
+                        }
+                    }
+                    
+                    console.log("cartList: " + JSON.stringify(state.CartList));
+                }))
         }),
         {
             name: "Docly",
