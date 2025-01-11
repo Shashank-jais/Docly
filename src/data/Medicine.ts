@@ -1,14 +1,5 @@
 const Medicine = [
   {
-    id: 1,
-    name: "Paracetamol",
-    size: "500mg",
-    price: 20,
-    description: "Effective for reducing fever and mild pain relief.",
-    medImage: require("../assets/images/medicine/paracetamol.jpg"),
-    rating: 4.8
-  },
-  {
     id: 2,
     name: "Ibuprofen",
     size: "400mg",
@@ -154,7 +145,7 @@ const Medicine = [
   },
   {
     id: 18,
-    name: "Cold Relief Syrup",
+    name: "Cold Syrup",
     size: "120ml",
     price: 50,
     description: "Eases cold symptoms such as congestion and sneezing.",
@@ -163,7 +154,7 @@ const Medicine = [
   },
   {
     id: 19,
-    name: "Pain Relief Syrup",
+    name: "Pain Syrup",
     size: "100ml",
     price: 60,
     description: "Provides relief from mild to moderate pain.",
@@ -172,13 +163,22 @@ const Medicine = [
   },
   {
     id: 20,
-    name: "Energy Booster Syrup",
+    name: "Energy Syrup",
     size: "150ml",
     price: 80,
     description: "Restores energy and reduces fatigue.",
     medImage: require("../assets/images/medicine/vitaminsyrup.jpg"),
     rating: 4.9
-  }
+  },
+  {
+    id: 1,
+    name: "Paracetamol",
+    size: "500mg",
+    price: 20,
+    description: "Effective for reducing fever and mild pain relief.",
+    medImage: require("../assets/images/medicine/paracetamol.jpg"),
+    rating: 4.8
+  },
 ]
 
- export default Medicine;
+export default Medicine;
