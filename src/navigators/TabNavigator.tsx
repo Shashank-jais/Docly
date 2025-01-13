@@ -8,6 +8,9 @@ import MessageScreen from '../screens/MessageScreen';
 import ScheduleScreen from '../screens/ScheduleScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import AppointmentNavBar from '../screens/AppointmentNavBar';
+// import {MaterialIcon} from '../components/Icon';
+import Icon from "react-native-vector-icons/MaterialIcons"
+import Icon2 from "react-native-vector-icons/AntDesign"
 
 
 
@@ -30,9 +33,9 @@ const TabNavigator = () => {
         component={HomeScreen}
         options={{
             tabBarIcon: ({ focused, color, size }) => (
-                <CustomIcons name="home"
-                    size={25}
-                    color={focused ? COLORS.cyan300 : COLORS.gray500} />
+                <Icon name="home"
+                size={32}
+                color={focused ? COLORS.cyan300 : COLORS.gray500} />
             )
         }}
         ></Tab.Screen>
@@ -41,8 +44,8 @@ const TabNavigator = () => {
         component={MessageScreen}
         options={{
             tabBarIcon: ({ focused, color, size }) => (
-                <CustomIcons name="home"
-                    size={25}
+                <Icon name="email"
+                    size={29}
                     color={focused ? COLORS.cyan300 : COLORS.gray500} />
             )
         }}
@@ -52,9 +55,9 @@ const TabNavigator = () => {
         component={AppointmentNavBar}
         options={{
             tabBarIcon: ({ focused, color, size }) => (
-                <CustomIcons name="home"
-                    size={25}
-                    color={focused ? COLORS.cyan300 : COLORS.gray500} />
+                <Icon2 name="profile"
+                size={24}
+                color={focused ? COLORS.cyan300 : COLORS.gray500} />
             )
         }}
         ></Tab.Screen>
@@ -63,8 +66,8 @@ const TabNavigator = () => {
         component={ProfileScreen}
         options={{
             tabBarIcon: ({ focused, color, size }) => (
-                <CustomIcons name="home"
-                    size={25}
+                <Icon2 name="user"
+                    size={24}
                     color={focused ? COLORS.cyan300 : COLORS.gray500} />
             )
         }}

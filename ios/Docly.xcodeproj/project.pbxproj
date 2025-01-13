@@ -78,6 +78,13 @@
 		4B9DE3689D0D42D5B40F8749 /* deletegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 52454AEAA1C741858B5688A8 /* deletegray.png */; };
 		E251E6C39C2342AD84BF53C5 /* heartratewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D565B4598C394FCDB1088D55 /* heartratewhite.png */; };
 		45E6537AAA0A457EB99EB9AF /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = D51FC6F730224FFCAFB1360C /* help.png */; };
+		22B9D42D14FD4E8085F7DD7D /* appointmentprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB3F498BB4B6283771FBE /* appointmentprofile.png */; };
+		643C490BC5A448B6B73BA0EE /* dumbellprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 136379716C91477AA6B9284A /* dumbellprofile.png */; };
+		409D30BAB11F4FD28AE55E1B /* fireprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F773EBBEE9449AB53C0458 /* fireprofile.png */; };
+		FEB4C576BFEE4E1595040837 /* likeprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF5C4C5B50435E8215F978 /* likeprofile.png */; };
+		4206E306E1E0432EA39164F2 /* messageprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5232C0FF5F434BB2E8D56F /* messageprofile.png */; };
+		B2AF25674E984C77922C20F7 /* arrowright.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAE853900CA494F8DFFAA26 /* arrowright.png */; };
+		8DE8C5C6590241529DBA2629 /* profilepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFF761133DE94669B42048B1 /* profilepic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +180,13 @@
 		52454AEAA1C741858B5688A8 /* deletegray.png */ = {isa = PBXFileReference; name = "deletegray.png"; path = "../src/assets/svg_images/deletegray.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D565B4598C394FCDB1088D55 /* heartratewhite.png */ = {isa = PBXFileReference; name = "heartratewhite.png"; path = "../src/assets/svg_images/heartratewhite.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D51FC6F730224FFCAFB1360C /* help.png */ = {isa = PBXFileReference; name = "help.png"; path = "../src/assets/svg_images/help.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3BCBB3F498BB4B6283771FBE /* appointmentprofile.png */ = {isa = PBXFileReference; name = "appointmentprofile.png"; path = "../src/assets/svg_images/appointmentprofile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		136379716C91477AA6B9284A /* dumbellprofile.png */ = {isa = PBXFileReference; name = "dumbellprofile.png"; path = "../src/assets/svg_images/dumbellprofile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3F773EBBEE9449AB53C0458 /* fireprofile.png */ = {isa = PBXFileReference; name = "fireprofile.png"; path = "../src/assets/svg_images/fireprofile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7EF5C4C5B50435E8215F978 /* likeprofile.png */ = {isa = PBXFileReference; name = "likeprofile.png"; path = "../src/assets/svg_images/likeprofile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD5232C0FF5F434BB2E8D56F /* messageprofile.png */ = {isa = PBXFileReference; name = "messageprofile.png"; path = "../src/assets/svg_images/messageprofile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEAE853900CA494F8DFFAA26 /* arrowright.png */ = {isa = PBXFileReference; name = "arrowright.png"; path = "../src/assets/svg_images/arrowright.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFF761133DE94669B42048B1 /* profilepic.jpg */ = {isa = PBXFileReference; name = "profilepic.jpg"; path = "../src/assets/svg_images/profilepic.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +360,13 @@
 				52454AEAA1C741858B5688A8 /* deletegray.png */,
 				D565B4598C394FCDB1088D55 /* heartratewhite.png */,
 				D51FC6F730224FFCAFB1360C /* help.png */,
+				3BCBB3F498BB4B6283771FBE /* appointmentprofile.png */,
+				136379716C91477AA6B9284A /* dumbellprofile.png */,
+				F3F773EBBEE9449AB53C0458 /* fireprofile.png */,
+				E7EF5C4C5B50435E8215F978 /* likeprofile.png */,
+				DD5232C0FF5F434BB2E8D56F /* messageprofile.png */,
+				CEAE853900CA494F8DFFAA26 /* arrowright.png */,
+				BFF761133DE94669B42048B1 /* profilepic.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -510,6 +531,13 @@
 				4B9DE3689D0D42D5B40F8749 /* deletegray.png in Resources */,
 				E251E6C39C2342AD84BF53C5 /* heartratewhite.png in Resources */,
 				45E6537AAA0A457EB99EB9AF /* help.png in Resources */,
+				22B9D42D14FD4E8085F7DD7D /* appointmentprofile.png in Resources */,
+				643C490BC5A448B6B73BA0EE /* dumbellprofile.png in Resources */,
+				409D30BAB11F4FD28AE55E1B /* fireprofile.png in Resources */,
+				FEB4C576BFEE4E1595040837 /* likeprofile.png in Resources */,
+				4206E306E1E0432EA39164F2 /* messageprofile.png in Resources */,
+				B2AF25674E984C77922C20F7 /* arrowright.png in Resources */,
+				8DE8C5C6590241529DBA2629 /* profilepic.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

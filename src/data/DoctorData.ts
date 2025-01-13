@@ -2,7 +2,7 @@ const DoctorData = [
   {
     id: 1,
     index: 0,
-    userName: "Dr. Marcus Horizo",
+    userName: "Dr. Marcus Horiz",
     userProfession: "Cardiologist",
     userRating: 4.8,
     userDistance: "800m away",
@@ -12,7 +12,7 @@ const DoctorData = [
   {
     id: 2,
     index: 1,
-    userName: "Dr. Emily Rhodes",
+    userName: "Dr. Emily Rhod",
     userProfession: "Pediatrician",
     userRating: 4.9,
     userDistance: "1.2km away",

@@ -198,6 +198,14 @@
       "sha1": "8f3b30e5e0bdcfbee92e625ee58b59981331cf5d"
     },
     {
+      "path": "src/assets/svg_images/appointmentprofile.png",
+      "sha1": "304c8e1e6a832552775a2dc25a8a11fbc2cc4bb2"
+    },
+    {
+      "path": "src/assets/svg_images/arrowright.png",
+      "sha1": "c36718e37cbe719496f5e658d4ab5542c854c833"
+    },
+    {
       "path": "src/assets/svg_images/cartblue.png",
       "sha1": "ad925a2d193e2a936ebbbad04818f987f895d9c1"
     },
@@ -214,8 +222,16 @@
       "sha1": "8b4e67e5d36e857527e8889a3e8ec64bbaa495d7"
     },
     {
+      "path": "src/assets/svg_images/dumbellprofile.png",
+      "sha1": "c2bf7edd84e7a8693bd23bd5cd0d253c4fc6cdaf"
+    },
+    {
       "path": "src/assets/svg_images/editicon.png",
       "sha1": "2f89708fa90a2525f844bce9379d7617e9d36dc8"
+    },
+    {
+      "path": "src/assets/svg_images/fireprofile.png",
+      "sha1": "d316da29f86a1d48dbb9a7ef5a7d08658957953f"
     },
     {
       "path": "src/assets/svg_images/heartratewhite.png",
@@ -230,6 +246,10 @@
       "sha1": "e843ccbc0a3fc40a709539453f1258825d4bff22"
     },
     {
+      "path": "src/assets/svg_images/likeprofile.png",
+      "sha1": "a0a7fe7af4a889c896068847e29b8473dad377e1"
+    },
+    {
       "path": "src/assets/svg_images/logo.png",
       "sha1": "f9cdec58e89beb6cc6ee6ecd200ca4c2a27aee7b"
     },
@@ -242,8 +262,16 @@
       "sha1": "1e7a3e27d7550a7013629833c66cbf4aee2d5e2a"
     },
     {
+      "path": "src/assets/svg_images/messageprofile.png",
+      "sha1": "deaacaea4e86664d7e796aa76a5886aec362a9c2"
+    },
+    {
       "path": "src/assets/svg_images/phonegray.png",
       "sha1": "ba7fefdfbc3425dd8e73eb816469144929a4cf62"
+    },
+    {
+      "path": "src/assets/svg_images/profilepic.jpg",
+      "sha1": "812a53797863d0113d799680cdbab8af8b34b7f7"
     },
     {
       "path": "src/assets/svg_images/screenlogo.png",
